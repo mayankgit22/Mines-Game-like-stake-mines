@@ -1,4 +1,4 @@
-import React, { useEffect ,useState} from 'react'
+import { useEffect ,useState} from 'react'
 import { useHomeContext } from './Context';
 function Tiles({noOfMines}:{noOfMines:number}) {
   const {betOn,mines,setBetOn,setMultiplier}=useHomeContext();
